@@ -160,3 +160,10 @@
 .bond-exclusions-content{padding:0 24px 14px}
 .bond-exclusions-content p{color:#514b4e;font-size:13px;line-height:1.55;margin:0}
 @media(max-width:600px){.bond-checklist-download{display:block}.bond-checklist-download a{display:block;margin-top:6px}}
+
+/* Use CSS escapes for generated symbols so they render consistently across local and hosted files. */
+.service-list li::before,.service-list-expandable summary::before,.bond-exclusions summary::before{content:"\2192"}
+.bond-checklist .checklist li::before,.bond-prep-note li::before{content:"\2713"}
+.bond-exclusions details[open] summary::after{content:"\2212"}
+.bond-checklist-download a span{font-size:0}.bond-checklist-download a span::after{content:"\2192";font-size:18px}
+.service-info-section .service-page-note span{position:relative;padding-left:20px}.service-info-section .service-page-note span::before{content:"\2713";position:absolute;left:0;color:var(--plum);font-weight:700}
