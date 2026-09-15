@@ -20,7 +20,10 @@
 @media(max-width:480px){.brand strong{font-size:25px}.brand-flower{font-size:31px}.hero h1{font-size:43px}.hero{height:500px}.photo-caption{padding:11px 15px;gap:15px}.photo-caption strong{font-size:11px}.service-card img{height:150px}.card-body{padding:12px 20px 15px}.cta-phone{font-size:24px}.cta-phone b{font-size:19px}}
 .service-strip{background:#f6f1e8}.nav-links{gap:20px}.hero-content{padding-top:55px}.hero h1{line-height:.91;margin-bottom:16px}.hero-copy{margin-bottom:20px}.hero-actions{gap:12px}.hero-actions .button,.nav-links .button-small{background:var(--plum);border-color:var(--plum);border-radius:30px}.hero-actions .button:hover,.nav-links .button-small:hover{background:#5f4263;color:#fff}.strip-grid{height:68px}.strip-grid span svg{width:29px;height:29px}.strip-grid span{gap:12px}
 @media(max-width:900px){.nav-links{gap:0;margin-left:0}.hero-content{padding-top:43px}.hero h1{line-height:.94;margin-bottom:15px}.hero-copy{margin-bottom:18px}.strip-grid{height:auto;padding:15px 0;gap:16px}.strip-grid span svg{width:27px;height:27px}}
+@media(min-width:601px) and (max-width:900px){.hero-image{background-size:auto 125%;background-position:center 20%!important}}
 @media(max-width:480px){.strip-grid span svg{width:26px;height:26px}.strip-grid span b{font-size:11px}.hero-actions{flex-wrap:wrap}.hero-actions .button{min-height:44px}.hero-content{padding-top:40px}}
+@media(max-width:600px){.hero-image{background-size:auto 150%;background-position:center top!important}}
+@media(max-width:340px){.hero h1 br{display:none}}
 @media(min-width:901px) and (max-width:1200px){.nav-links{gap:11px;font-size:10px}.nav-links a:not(.button){padding-left:0;padding-right:0}.nav-links .button-small{padding:9px 14px!important}.container{width:calc(100% - 40px)}}
 @media(min-width:1101px){.nav-links{position:static;display:grid;grid-template-columns:minmax(0,1fr) repeat(5,max-content) minmax(0,1fr) max-content;align-items:center;gap:20px;flex:1;margin-left:20px;white-space:nowrap}.nav-links a:nth-child(1){grid-column:2}.nav-links a:nth-child(2){grid-column:3}.nav-links a:nth-child(3){grid-column:4}.nav-links a:nth-child(4){grid-column:5}.nav-links a:nth-child(5){grid-column:6}.nav-links .button-small{grid-column:8;margin-left:0}}
 @media(min-width:1101px) and (max-width:1200px){.nav-links{gap:11px}}
@@ -34,6 +37,8 @@
 .welcome-photo>img{display:block;width:100%;height:100%;object-fit:cover;object-position:center}
 .photo-caption{padding:16px 20px;gap:18px}
 .photo-caption strong{line-height:1.45}
+.photo-caption strong{display:flex;align-items:flex-start;gap:8px;text-transform:none}
+.photo-caption .caption-mark{font-size:18px;line-height:1.1;flex:none}
 .photo-caption span{font-size:13px;line-height:1.4}
 .welcome-copy .text-link{font-size:14px;font-weight:600;letter-spacing:.01em}
 @media(max-width:900px){.welcome{padding-bottom:44px}.welcome-grid{grid-template-columns:1fr;gap:13px}.welcome-photo{height:230px}}
